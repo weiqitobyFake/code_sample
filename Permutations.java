@@ -2,7 +2,7 @@ package code_sample;
 
 import java.util.*;
 
-public class Permutation {
+public class Permutations {
 	
 	public static void main(String[] args) {
 		String string1 = "abc";
