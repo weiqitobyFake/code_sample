@@ -12,7 +12,7 @@ public class FindAncestor {
 		if (!covers(root, a) || !covers(root, b))
 			return null;
 		boolean leftSide = covers(root.left, a);
-		boolean	rightSide =	covers(root.left, b);
+		boolean	rightSide = covers(root.left, b);
 		
 		if (leftSide != rightSide) {
 			return root;
