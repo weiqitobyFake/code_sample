@@ -4,6 +4,9 @@ import java.util.*;
 
 public class FindPath {
 	
+	// This problem is to find the paths that start from root but can end not just on leaves
+	// and the value of each nodes in the path sum to a target
+	
 	public static void printPath(TreeNode root, int target) {
 		if (root == null)
 			return;
